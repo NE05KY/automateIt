@@ -1,3 +1,4 @@
+encoding: utf-8
 safe: true
 markdown: kramdown
 highlighter: pygments
@@ -10,12 +11,11 @@ default_lang: en
 default_body_class: list
 
 author:
-    name: Alexey Alexeyev
-    # url:  http://example.com/
+    name: Алексей Алексеев
+    url:  https://github.com/NE05KY/
     company:
         name: Exadel Inc.
-        # url:  http://example.com/
+        url:  http://exadel.com/
 
-fork_url: https://github.com/NE05KY/jekyller
 progress: true
 line_numbers: true
