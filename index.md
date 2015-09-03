@@ -50,14 +50,14 @@ style: |
 ![](pictures/vader.jpe)
 <!-- photo by John Carey, fiftyfootshadows.net -->
 
+## **ABOUT ME**
 
-## Shower Key Features
+## **SVG**
 
-1. Built on HTML, CSS and vanilla JavaScript
-2. All modern browsers are supported
-3. Slide themes are separated from engine
-4. Fully keyboard accessible
-5. Printable to PDF
+## SVG
+
+1. XML-подобный формат
+2. Разрабатывается с 1999 года
 
 {:.note}
 Shower ['ʃəuə] noun. A person or thing that shows.
