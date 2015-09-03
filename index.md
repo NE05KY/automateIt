@@ -58,9 +58,18 @@ style: |
 
 1. XML-подобный формат
 2. Разрабатывается с 1999 года
+3. 
 
 {:.note}
-Shower ['ʃəuə] noun. A person or thing that shows.
+Scalable Vector Graphics.
+
+## Что внутри?
+
+1. Примитивы
+2. Use
+3. Фильтры
+4. Анимации
+5. Паттерны?
 
 
 ## Plain Text on Your Slides
