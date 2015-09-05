@@ -141,7 +141,17 @@ Front-end Developer at Exadel
 6. ...Карты
 7. ...Градиенты 
 
-## Поддержка
+## Иконки {#Icons}
+
+|  JPG (28Kb)                  | SVG (6Kb)                    |
++------------------------------|------------------------------+
+| ![](pictures/vader_icon.jpg) | ![](pictures/vader_icon.svg) |
+
+<style>
+#Icons img {
+    width: 300px;
+        }
+</style>
 
 ## Анимация {#Croco}
 
