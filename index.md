@@ -1,51 +1,5 @@
 ---
-
-layout: ribbon
-
-style: |
-
-    #Cover {
-        background: #FFF;
-    }
-    #Cover .vader {
-        right: 0;
-        left: auto;
-        bottom: 0;
-        top: auto;
-    }
-    #Cover .luke {
-        left: 0;
-        bottom: 0;
-        top: auto;
-        }
-    #Cover h2 {
-        margin:-30px 0 0;
-        color:#666;
-        text-align:center;
-        font-size:70px;
-        }
-    #Cover p {
-        margin:10px 0 0;
-        text-align:center;
-        font-style:italic;
-        font-size:20px;
-        }
-        #Cover p a {
-            color: grey;
-            }
-            
-            
-            
-    #Picture h2 {
-        color:#FFF;
-        }
-    #SeeMore h2 {
-        font-size:100px
-        }
-    #SeeMore img {
-        width:0.72em;
-        height:0.72em;
-        }
+layout: ribbon  
 ---
 
 # SVG. <br> Welcome to the Vector Side! {#Cover}
@@ -63,6 +17,38 @@ style: |
 Давайте мы сейчас с вами побеседуем, и, может быть, вы тоже присоединитесь к векторной стороне. 
 Поехали!
 </footer>
+
+<style>
+#Cover {
+    background: #FFF;
+}
+#Cover .vader {
+    right: 0;
+    left: auto;
+    bottom: 0;
+    top: auto;
+}
+#Cover .luke {
+    left: 0;
+    bottom: 0;
+    top: auto;
+    }
+#Cover h2 {
+    margin:-30px 0 0;
+    color:#666;
+    text-align:center;
+    font-size:70px;
+    }
+#Cover p {
+    margin:10px 0 0;
+    text-align:center;
+    font-style:italic;
+    font-size:20px;
+    }
+#Cover p a {
+        color: grey;
+}
+</style>
 
 ## Алексей Алексеев {#AboutMe}
 
@@ -171,6 +157,10 @@ Front-end Developer at Exadel
 <span class="tooltip" data-tooltip="I’m the tooltip text.">IE9+</span>
 <!-- Copyright caferati.me @ rafael@caferati.me -->
 
+<footer>
+
+</footer>
+
 <style>
 #Crossbrowser .browsers {
     width: 100%;
@@ -189,10 +179,6 @@ Front-end Developer at Exadel
 5. ...Графики
 6. ...Карты
 7. ...Градиенты 
-
-## Как использовать?
-
-1. 
 
 ## Иконки {#Icons}
 
@@ -220,20 +206,6 @@ Front-end Developer at Exadel
 <div class="wrapper"><svg version="1.1" id="crocodile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="700px" height="500px" viewBox="0 0 400 250" enable-background="new 0 0 260 250" xml:space="preserve"> <g> <text id="symbol" transform="matrix(1 0 0 1 224.2318 361)" fill="#848383" font-family="'MyriadPro-Regular'" font-size="70">SVG!</text> <g id="head"> <polygon fill="#09B39C" points="44.613,146.703 26.665,140.721 8.718,146.703 -0.252,146.703 -0.252,206.523 44.613,206.523 119.387,206.523 119.387,167.64 "></polygon> <polygon opacity="0.2" fill="#FFFFFF" enable-background="new " points="-0.252,146.703 11.712,170.631 26.667,140.721 8.721,146.703 "></polygon> <polyline opacity="0.2" fill="#FFFFFF" enable-background="new " points="8.718,146.703 20.685,152.685 26.665,140.721 "></polyline> <polygon opacity="0.2" fill="#FFFFFF" enable-background="new " points="44.613,146.703 53.613,163.667 17.694,143.712 26.667,140.721 "></polygon> </g> <g id="upper-head" transform="matrix(0.9903,0.1392,-0.1392,0.9903,20.8867,-4.693)"> <g id="upper-jaw" transform="matrix(0.7986,0.6018,-0.6018,0.7986,94.3542,-29.9951)"> <g> <path id="upper-teeth" fill="#E0CAB1" d="M151.174,129.382l14.913,6.086l-6.602-14.691L151.174,129.382z M138.707,142.292 l14.914,6.086l-6.603-14.692L138.707,142.292z M126.241,155.201l14.913,6.086l-6.602-14.692L126.241,155.201z M163.64,116.474 l14.913,6.085l-6.603-14.692L163.64,116.474z M176.106,103.564l14.913,6.086l-6.602-14.692L176.106,103.564z M188.572,90.655 l14.914,6.085l-6.602-14.691L188.572,90.655z M201.039,77.746l14.913,6.085L209.35,69.14L201.039,77.746z M221.816,56.23 l-8.311,8.607l14.913,6.085L221.816,56.23z"></path> <path opacity="0.4" fill="#FFFFFF" enable-background="new " d="M155.329,125.08l10.758,10.388l-6.602-14.691L155.329,125.08 z M142.863,137.989l10.758,10.389l-6.603-14.692L142.863,137.989z M130.396,150.898l10.758,10.389l-6.602-14.692 L130.396,150.898z M167.796,112.171l10.757,10.388l-6.603-14.692L167.796,112.171z M180.261,99.261l10.758,10.389l-6.602-14.692 L180.261,99.261z M192.728,86.352l10.758,10.388l-6.602-14.691L192.728,86.352z M205.195,73.443l10.757,10.388L209.35,69.14 L205.195,73.443z M221.816,56.23l-4.156,4.303l10.758,10.389L221.816,56.23z"></path> </g> <polygon fill="#09B39C" points="215.135,33 200.18,33 197.189,46.955 92,125 88.355,171.706 106.387,180.64 236.072,47.955 "></polygon> <polygon opacity="0.2" fill="#FFFFFF" enable-background="new " points="92,125 97.423,150.703 197.189,46.955 "></polygon> <line opacity="0.2" fill="#FFFFFF" enable-background="new " x1="197.189" y1="46.955" x2="92" y2="125"></line> <polygon opacity="0.2" fill="#FFFFFF" enable-background="new " points="200.18,33 236.072,47.955 215.135,33 "></polygon> <polygon opacity="0.2" fill="#FFFFFF" enable-background="new " points="197.189,46.955 215.135,33 200.18,33 "></polygon> </g> <polygon fill="#09B39C" points="92,125 65.55,126.757 44.613,146.703 44.613,176.523 119.387,176.523 119.387,167.64 107.897,156.377 "></polygon> <polygon opacity="0.2" fill="#FFFFFF" enable-background="new " points="92,125 102.423,145.703 65.55,126.757 "></polygon> <polygon opacity="0.2" fill="#FFFFFF" enable-background="new " points="44.613,146.703 102.423,145.703 92,125 65.55,126.757 "></polygon> <polygon id="eye_1_" fill="#FFFFFF" points="71.532,145.703 83.495,139.721 95.459,145.703 80.505,154.676 "></polygon> <polygon opacity="0.2" fill="#FFFFFF" enable-background="new " points="44.613,146.703 44.613,158.667 92,125 65.55,126.757 "></polygon> </g> <g id="bottom-jaw"> <g> <polygon fill="#E0CAB1" points="152.531,185.586 158.513,170.631 164.495,185.586 "></polygon> <polygon opacity="0.4" fill="#FFFFFF" enable-background="new " points="164.495,185.586 158.513,170.631 158.513,185.586 "></polygon> </g> <g> <polygon fill="#E0CAB1" points="170.477,185.586 176.459,170.631 182.441,185.586 "></polygon> <polygon opacity="0.4" fill="#FFFFFF" enable-background="new " points="182.441,185.586 176.459,170.631 176.459,185.586 "></polygon> </g> <g> <polygon fill="#E0CAB1" points="188.423,185.586 194.405,170.631 200.387,185.586 "></polygon> <polygon opacity="0.4" fill="#FFFFFF" enable-background="new " points="200.387,185.586 194.405,170.631 194.405,185.586 "></polygon> </g> <g> <polygon fill="#E0CAB1" points="206.369,185.586 212.351,170.631 218.333,185.586 "></polygon> <polygon opacity="0.4" fill="#FFFFFF" enable-background="new " points="218.333,185.586 212.351,170.631 212.351,185.586 "></polygon> </g> <g> <polygon fill="#E0CAB1" points="224.315,185.586 230.297,170.631 236.279,185.586 "></polygon> <polygon opacity="0.4" fill="#FFFFFF" enable-background="new " points="236.279,185.586 230.297,170.631 230.297,185.586 "></polygon> </g> <polygon fill="#E0CAB1" points="148.54,179.604 119.596,167.64 109.657,167.64 103.675,167.64 91.711,167.64 79.747,179.604 0,200.541 0,206.523 79.747,206.523 156.522,206.523 187.432,198.55 235.288,189.577 244.252,179.604 "></polygon> <polygon opacity="0.3" fill="#FFFFFF" enable-background="new " points="119.594,167.64 91.711,167.64 79.747,179.604 "></polygon> <polygon opacity="0.3" fill="#FFFFFF" enable-background="new " points="91.711,167.64 79.747,206.523 79.747,179.604 "></polygon> <polygon opacity="0.1" fill="#534741" enable-background="new " points="235.288,189.577 160.513,195.559 115.639,206.523 156.522,206.523 187.432,198.55 "></polygon> <polygon opacity="0.1" fill="#534741" enable-background="new " points="187.432,198.55 160.513,195.559 156.522,206.523 156.522,206.523 "></polygon> <polygon opacity="0.3" fill="#FFFFFF" enable-background="new " points="0,200.541 46.847,194.559 79.747,179.604 "></polygon> </g> </g> <desc>Created with Snap</desc><defs></defs></svg></div>
 <!-- svg from site snapsvg.io -->
 
-## Plain Text on Your Slides
-
-Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
-
-## All Kind of Lists
-
-1. Simple lists are marked with bullets
-2. Ordered lists begin with a number
-3. You can even nest lists one inside another
-    - Or mix their types
-    - But do not go too far
-    - Otherwise audience will be bored
-4. Look, seven rows exactly!
-
 ## Serious Citations
 
 <figure markdown="1">
@@ -252,33 +224,3 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
         <meta charset="<mark class="important">UTF-8</mark>">
         <link rel="stylesheet" href="screen.css">
     <mark></head></mark>
-
-## Even Tables
-
-|  Locavore      | Umami       | Helvetica | Vegan     |
-+----------------|-------------|-----------|-----------+
-|* Fingerstache *| Kale        | Chips     | Keytar    |
-|* Sriracha     *| Gluten-free | Ennui     | Keffiyeh  |
-|* Thundercats  *| Jean        | Shorts    | Biodiesel |
-|* Terry        *| Richardson  | Swag      | Blog      |
-
-It’s good to have information organized.
-
-## Pictures
-{:.cover #Picture}
-
-![](pictures/picture.jpg)
-<!-- photo by John Carey, fiftyfootshadows.net -->
-
-## **You can even shout this way**
-
-## Inner Navigation
-
-1. Lets you reveal list items one by one
-2. …To keep some key points
-3. …In secret from audience
-4. …But it will work only once
-5. …Nobody wants to see the same joke twice
-
-## ![](http://shwr.me/pictures/logo.svg) [See more on GitHub](https://github.com/shower/shower/)
-{:.shout #SeeMore}
