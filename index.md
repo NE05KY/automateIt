@@ -193,9 +193,9 @@ Front-end Developer at Exadel
 
 ## Иконки {#VaderIcon}
 
-|  JPG (28Kb)                  | SVG (6Kb)                    |
+| PNG (12Kb)                   | SVG (6Kb)                    | 
 +------------------------------|------------------------------+
-| ![](pictures/vader_icon.jpg) | ![](pictures/vader_icon.svg) |
+| ![](pictures/vader_icon.png) | ![](pictures/vader_icon.svg) |
 
 <footer>
 К примеру, Дарт Вейдер в векторе выглядит намного лучше, да и весит в 5 раз меньше.
