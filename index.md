@@ -253,7 +253,6 @@ Front-end Developer at Exadel
 }
 </style>
 
-
 ## Font Awesome
 {:.cover}
 <!-- TODO: animated page -->
@@ -263,6 +262,22 @@ Front-end Developer at Exadel
 Самый простой вариант, который, я уверен, многие из вас используют - воспользоваться готовым набором иконок, 
 например таким, как  Font Awesome. 
 </footer>
+
+## Изображения {#Pictures}
+
+| PNG (36Kb)                   | SVG (10Kb)             | 
++------------------------------|------------------------+
+| ![](pictures/yoda.png)       | ![](pictures/yoda.svg) |
+
+<style>
+#Pictures table th {
+    text-align: center;
+}
+#Pictures img {
+    width: 100%;
+    vertical-align: middle;
+}
+</style>
 
 
 ## Анимация {#Croco}
