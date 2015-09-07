@@ -24,7 +24,7 @@ window.onload = function () {
 
         timer = setTimeout(function () {
             symbol.animate({
-                transform: "t-70,40r40"
+                transform: "t20,200r0"
             }, 100);
         }, 400);
     }
@@ -41,7 +41,7 @@ window.onload = function () {
         }, 700, mina.elastic);
 
         symbol.animate({
-            transform: "t0,0r0"
+            transform: "t165,165r0"
         }, 500, mina.elastic);
     }
 
@@ -52,6 +52,4 @@ window.onload = function () {
             timer = setTimeout(close, 200);
         }
     );
-};/**
- * Created by NE05KY on 05.09.2015.
- */
+};
