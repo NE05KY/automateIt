@@ -162,16 +162,6 @@ Front-end Developer at Exadel
 }
 </style>
 
-## **?Vector vs. Raster?**
-
-<footer>
-Но векторная графика это не серебрянная пуля и подходит не для все ситуаций.
-Не получится заменить всю растровую графику векторной. SVG покрывает свой строго определенный спектр задач.
-
-Несмотря на все преимущества SVG-графики, это не лучший выбор для любой ситуации.
-<!-- TODO: rewrite this block -->
-</footer>
-
 ## Для чего использовать?
 
 1. Элементы UI
@@ -183,7 +173,11 @@ Front-end Developer at Exadel
 7. ...Градиенты 
 
 <footer>
+Но векторная графика это не серебрянная пуля и подходит не для все ситуаций.
+Не получится заменить всю растровую графику векторной. SVG покрывает свой строго определенный спектр задач.
 
+Несмотря на все преимущества SVG-графики, это не лучший выбор для любой ситуации.
+<!-- TODO: Дописать описание -->
 </footer>
 
 ## **Изображения**
@@ -246,8 +240,11 @@ Front-end Developer at Exadel
 
 ## Icons 
 {:.cover #Icons}
-<!-- TODO: animated page -->
-![](pictures/icons.jpg)
+
+<div id='container'></div>
+<link rel="stylesheet" type="text/css" href="scripts/font-awesome.min.css">
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/icons.js"></script>
 
 <footer>
 Однако, мало кто использует одну-две иконки в проекте.
@@ -259,6 +256,25 @@ Front-end Developer at Exadel
 <style>
 #Icons h2 {
     display: none;
+}
+#Icons #container {
+    margin: -105px -120px 0;
+    background: white;
+    width: 1024px;
+    height: 640px;
+}
+#Icons .brick {
+    width: 64px;
+    height: 64px;
+    float: left;
+    text-align: center;
+    line-height:64px;
+    vertical-align:middle;
+    display:inline-block;
+}
+#Icons i {
+    line-height: inherit !important;
+    font-style: normal;
 }
 </style>
 
