@@ -351,3 +351,13 @@ Front-end Developer at Exadel
 - SVGO
 - Responsive SVG
 - Анимации
+
+## Final 
+{:.cover #Final}
+<script src="scripts/final.js"></script>
+<link rel="stylesheet" type="text/css" href="scripts/final.css">
+<div class="starwars-demo">
+    <!-- TODO: replace with SVG img -->
+    <img src="//cssanimation.rocks/starwars/images/star.svg" alt="Star" class="star">
+    <span class="byline" id="byline">Welcome to the Vector Side!</span>
+</div>
