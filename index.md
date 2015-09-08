@@ -162,7 +162,7 @@ Front-end Developer at Exadel
 }
 </style>
 
-## **Vector vs. Raster**
+## **?Vector vs. Raster?**
 
 <footer>
 Но векторная графика это не серебрянная пуля и подходит не для все ситуаций.
@@ -203,6 +203,8 @@ Front-end Developer at Exadel
     vertical-align: middle;
 }
 </style>
+
+## Элементы - DOM
 
 
 ## Анимация {#Croco}
