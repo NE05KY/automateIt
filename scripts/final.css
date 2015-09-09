@@ -1,19 +1,16 @@
 /* Animation properties */
-#Final .star {
-  animation: star 10s ease-out infinite;
+#Final .svg {
+  animation: svg 10s ease-out infinite;
 }
-#Final .wars {
-  animation: wars 10s ease-out infinite;
-}
-#Final .byline span {
+#Final .moto span {
   animation: spin-letters 10s linear infinite;
 }
-#Final .byline {
-  animation: move-byline 10s linear infinite;
+#Final .moto {
+  animation: move-moto 10s linear infinite;
 }
 
 /* Keyframes */
-@keyframes star {
+@keyframes svg {
   0% {
     opacity: 0;
     transform: scale(1.5) translateY(-0.75em);
@@ -22,24 +19,6 @@
     opacity: 1;
   }
   89% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: translateZ(-1000em);
-  }
-}
-
-@keyframes wars {
-  0% {
-    opacity: 0;
-    transform: scale(1.5) translateY(0.5em);
-  }
-  20% {
-    opacity: 1;
-  }
-  90% {
     opacity: 1;
     transform: scale(1);
   }
@@ -66,7 +45,7 @@
   }
 }
 
-@keyframes move-byline {
+@keyframes move-moto {
   0% {
     transform: translateZ(5em);
   }
@@ -83,7 +62,7 @@
 
 /* General styles and layout */
 #Final {
-  background: #000 url(//cssanimation.rocks/starwars/images/bg.jpg);
+  background: #000 url(../pictures/star_sky.jpg);
 }
 
 #Final .starwars-demo {
@@ -95,7 +74,7 @@
   width: 34em;
 }
 
-#Final .byline span {
+#Final .moto span {
   display: inline-block;
 }
 
@@ -107,15 +86,15 @@
   width: 100%;
 }
 
-#Final .star, .byline {
+#Final .svg, .moto {
   position: absolute;
 }
 
-#Final .star {
-  top: -0.75em;
+#Final .svg {
+  top: 1.25em;
 }
 
-#Final .byline {
+#Final .moto {
   color: #fff;
   font-family: "ITC Serif Gothic", Lato;
   font-size: 1.28em;
@@ -124,7 +103,7 @@
   right: -2em;
   text-align: center;
   text-transform: uppercase;
-  top: 40%;
+  top: 7.25em;
 }
 
 /*** Media queries for adjusting to different screen sizes ***/

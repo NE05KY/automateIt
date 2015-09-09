@@ -133,7 +133,7 @@ Front-end Developer at Exadel
 </style>
 
 <footer>
-Чем же так хорошо этот формат? 
+Чем же так хорош этот формат? 
 1. Во первых он векторный. 
 Т.е. изображение описывается набором графических примитивов.
 2. Во вторых он масштабируемый, т.е. на каких бы экранах мы не открывали изображение, оно будет выглядеть одинаково четко.
@@ -152,7 +152,8 @@ Front-end Developer at Exadel
 
 <footer>
 Ну и так как это довольно взрослый формат, он отлично поддерживается всеми браузерами.
-И даже ИЕ начиная с 9-ой версии. Так же поддерживается мобильными браузерами, андроидом с версии 2.3.
+И даже ИЕ начиная с 9-ой версии. 
+Так же поддерживается мобильными браузерами, андроидом с версии 2.3.
 </footer>
 
 <style>
@@ -319,9 +320,14 @@ Front-end Developer at Exadel
 </style>
 
 ## Font Awesome
-{:.cover}
-<!-- TODO: animated page -->
+{:.cover #FA}
 ![](pictures/awesome.jpg)
+
+<style>
+#FA h2 {
+    display: none;
+}
+</style>
 
 <footer>
 Самый простой вариант, который, я уверен, многие из вас используют - воспользоваться готовым набором иконок, 
@@ -357,7 +363,7 @@ Front-end Developer at Exadel
 <script src="scripts/final.js"></script>
 <link rel="stylesheet" type="text/css" href="scripts/final.css">
 <div class="starwars-demo">
-    <!-- TODO: replace with SVG img -->
-    <img src="//cssanimation.rocks/starwars/images/star.svg" alt="Star" class="star">
-    <span class="byline" id="byline">Welcome to the Vector Side!</span>
+    <!-- TODO: fix animation -->
+    <img src="pictures/svg.svg" class="svg">
+    <span class="moto" id="moto">Welcome to the Vector Side!</span>
 </div>

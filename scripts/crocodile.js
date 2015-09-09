@@ -1,55 +1,55 @@
-window.onload = function () {
+window.onload = function() {
 
-    var croc = Snap.select("#crocodile"),
-        head = croc.select("#upper-head"),
-        jaw = croc.select("#upper-jaw"),
-        symbol = croc.select("#symbol"),
+    var croc = Snap.select( "#crocodile" ),
+        head = croc.select( "#upper-head" ),
+        jaw = croc.select( "#upper-jaw" ),
+        symbol = croc.select( "#symbol" ),
         timer;
 
     var pivots = [
-        [44, 147],
-        [92, 126]
+        [ 44, 147 ],
+        [ 92, 126 ]
     ];
 
     function close() {
-        clearTimeout(timer);
+        clearTimeout( timer );
 
-        head.animate({
-            transform: "r" + [8, pivots[0]]
-        }, 500, mina.backin);
+        head.animate( {
+            transform: "r" + [ 8, pivots[ 0 ] ]
+        }, 500, mina.backin );
 
-        jaw.animate({
-            transform: "r" + [37, pivots[1]]
-        }, 500, mina.backin);
+        jaw.animate( {
+            transform: "r" + [ 37, pivots[ 1 ] ]
+        }, 500, mina.backin );
 
-        timer = setTimeout(function () {
-            symbol.animate({
+        timer = setTimeout( function() {
+            symbol.animate( {
                 transform: "t20,200r0"
-            }, 100);
-        }, 400);
+            }, 100 );
+        }, 400 );
     }
 
     function open() {
-        clearTimeout(timer);
+        clearTimeout( timer );
 
-        head.animate({
-            transform: "r" + [0, pivots[0]]
-        }, 700, mina.elastic);
+        head.animate( {
+            transform: "r" + [ 0, pivots[ 0 ] ]
+        }, 700, mina.elastic );
 
-        jaw.animate({
-            transform: "r" + [0, pivots[1]]
-        }, 700, mina.elastic);
+        jaw.animate( {
+            transform: "r" + [ 0, pivots[ 1 ] ]
+        }, 700, mina.elastic );
 
-        symbol.animate({
+        symbol.animate( {
             transform: "t165,165r0"
-        }, 500, mina.elastic);
+        }, 500, mina.elastic );
     }
 
-    timer = setTimeout(close, 50);
+    timer = setTimeout( close, 50 );
 
-    croc.hover(open,
-        function () {
-            timer = setTimeout(close, 200);
+    croc.hover( open,
+        function() {
+            timer = setTimeout( close, 200 );
         }
     );
 };
