@@ -354,9 +354,15 @@ Front-end Developer at Exadel
 
 
 ## Что не успел рассказать
+
 - SVGO
 - Responsive SVG
 - Анимации
+
+<!-- TODO: find the right place for picture -->
+![](pictures/svgvspng.svg)
+<!-- Author: Vadim Makeev, http://pepelsbey.net/ -->
+
 
 ## Final 
 {:.cover #Final}
