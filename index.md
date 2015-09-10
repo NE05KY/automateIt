@@ -18,6 +18,7 @@ layout: ribbon
 Поехали!
 </footer>
 
+<script src="scripts/main.js"></script>
 <style>
 #Cover {
     background: #FFF;
@@ -216,6 +217,7 @@ Front-end Developer at Exadel
 - GIMP (Cross-platform)
 - Sketch (OS X)
 - Текстовый редактор
+<!-- TODO: replace bg -->
 <style>#Editors li{font-weight: bold;}</style>
 
 ## Что внутри?
@@ -406,10 +408,10 @@ Front-end Developer at Exadel
         float: left;
     } 
     #WhatElse .vs {
-float: right;
-    width: 600px;
-    margin-right: -100px;
-    margin-top: -175px;
+        float: right;
+        width: 600px;
+        margin-right: -100px;
+        margin-top: -175px;
     }
     #WhatElse:after {
         visibility: hidden;
@@ -421,7 +423,6 @@ float: right;
 <script src="scripts/final.js"></script>
 <link rel="stylesheet" type="text/css" href="scripts/final.css">
 <div class="starwars-demo">
-    <!-- TODO: fix animation -->
     <img src="pictures/svg.svg" class="svg">
     <span class="moto" id="moto">Welcome to the Vector Side!</span>
 </div>

@@ -1,5 +1,4 @@
-window.onload = function() {
-
+function crocodile() {
     var croc = Snap.select( "#crocodile" ),
         head = croc.select( "#upper-head" ),
         jaw = croc.select( "#upper-jaw" ),

@@ -18,9 +18,3 @@ function finalize() {
 	    }
 	}
 }
-
-$( document ).keypress( function( e ) {
-    if ( e.keyCode >= 49 && e.keyCode <= 57 ) {
-        finalize();
-    }
-} );
