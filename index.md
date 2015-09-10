@@ -389,16 +389,29 @@ Front-end Developer at Exadel
 </footer>
 
 
-## Что не успел рассказать
-
+## Что ещё? {#WhatElse}
 - SVGO
 - Responsive SVG
 - Анимации
+- Интерактивность
+- Фильтры
 
-<!-- TODO: find the right place for picture -->
-![](pictures/svgvspng.svg)
+![](pictures/svgvspng.svg){:.vs}
 <!-- Author: Vadim Makeev, http://pepelsbey.net/ -->
-
+<style type="text/css">
+    #WhatElse ul {
+        float: left;
+    } 
+    #WhatElse .vs {
+float: right;
+    width: 600px;
+    margin-right: -100px;
+    margin-top: -175px;
+    }
+    #WhatElse:after {
+        visibility: hidden;
+    }
+</style>
 
 ## Final 
 {:.cover #Final}
