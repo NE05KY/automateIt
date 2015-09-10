@@ -52,7 +52,6 @@ layout: ribbon
 </style>
 
 ## Алексей Алексеев {#AboutMe}
-<!-- TODO: Align center -->
 ![](pictures/avatar.jpg){:.avatar}
 
 {:.iam}
@@ -206,8 +205,6 @@ Front-end Developer at Exadel
 
 ## **Как рисовать?**
 
-## **Да хоть в блокноте!**
-
 ## Редакторы
 {:.cover #Editors}
 ![](pictures/editors.png) 
@@ -216,7 +213,9 @@ Front-end Developer at Exadel
 - CorelDRAW (Windows)
 - GIMP (Cross-platform)
 - Sketch (OS X)
-- Текстовый редактор
+- Любой текстовый редактор
+- ...Абсолютно любой
+- ...Да, даже блокнот
 <!-- TODO: replace bg -->
 <style>#Editors li{font-weight: bold;}</style>
 
