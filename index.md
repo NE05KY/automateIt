@@ -150,20 +150,26 @@ Front-end Developer at Exadel
 </footer>
 
 ## Поддержка браузерами {#Crossbrowser}
-![](pictures/browsers.svg){:.browsers}
-<!-- TODO: IE -->
+
+<div class="broswers"></div>
 <!-- Copyright caferati.me @ rafael@caferati.me -->
 
 <footer>
 Ну и так как это довольно взрослый формат, он отлично поддерживается всеми браузерами.
-И даже ИЕ начиная с 9-ой версии. 
+Даже король вечеринки, старина ИЕ начиная поддерживает SVG с 9-ой версии. 
 Так же поддерживается мобильными браузерами, андроидом с версии 2.3.
 </footer>
 
 <style>
-#Crossbrowser .browsers {
+#Crossbrowser .broswers {
     width: 100%;
+    height: 135px;
+    background-image: url(pictures/browsers.svg);
+    background-size: cover;
     margin-top: 70px;
+}
+#Crossbrowser .broswers:hover {
+    background-image: url(pictures/browsers_bw.svg);
 }
 </style>
 
