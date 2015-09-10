@@ -205,10 +205,7 @@ Front-end Developer at Exadel
 
 ## **Как рисовать?**
 
-## Редакторы
-{:.cover #Editors}
-![](pictures/editors.png) 
-
+## Редакторы {#Editors}
 - **Adobe Illustrator (Windows, OS X)**
 - CorelDRAW (Windows)
 - GIMP (Cross-platform)
@@ -216,8 +213,18 @@ Front-end Developer at Exadel
 - Любой текстовый редактор
 - ...Абсолютно любой
 - ...Да, даже блокнот
-<!-- TODO: replace bg -->
-<style>#Editors li{font-weight: bold;}</style>
+
+![](pictures/logos.png) 
+
+<style>
+#Editors img {
+    float: right;
+    width: 300px;
+}
+#Editors ul {
+    float: left;
+}
+</style>
 
 ## Что внутри?
 {:.cover #CrocoSource}
