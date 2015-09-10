@@ -1,21 +1,20 @@
 var iconsAction;
 
 function checkSlide() {
-	var curr = shower.getCurrentSlideNumber();
+    var curr = shower.getCurrentSlideNumber();
 
-		// Icons page animation
-		if (curr === 17 && !iconsAction) {
-			iconsAction = setInterval( changeRandomIcon, 300 );
-		}
-		if (curr !== 17 && iconsAction) {
-			window.clearInterval( iconsAction );
-			iconsAction = undefined;
-		}
+    // Icons page animation
+    if ( curr === 16 && !iconsAction ) {
+        iconsAction = setInterval( changeRandomIcon, 300 );
+    }
+    if ( curr !== 16 && iconsAction ) {
+        window.clearInterval( iconsAction );
+        iconsAction = undefined;
+    }
 }
 
-setInterval( checkSlide, 300 );
-
-window.onload = function() { 
-	crocodile();
-	finalize();
-}
+window.onload = function() {
+    crocodile();
+    finalize();
+    setInterval( checkSlide, 300 );
+};
