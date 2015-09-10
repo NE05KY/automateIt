@@ -222,7 +222,7 @@ Front-end Developer at Exadel
 
 ## Что внутри?
 {:.cover #CrocoSource}
-![](pictures/crocodile-source.png)  
+![](pictures/crocodile-src.png)
 <style>#CrocoSource h2{color: white;}</style>
 
 ## Что внутри?
