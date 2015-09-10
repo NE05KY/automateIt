@@ -70,6 +70,7 @@ Front-end Developer at Exadel
 }
 #AboutMe h2 {
      float: left;
+     margin-top: 100px;
 }
 #AboutMe .iam {
      float: left;
@@ -84,10 +85,12 @@ Front-end Developer at Exadel
     float:left;
 }
 #AboutMe .avatar {
-    width: 300px;
-    height: 300px;
+    width: 365px;
+    height: 365px;
     float: right;
     border-radius: 50%;
+    margin-top: 12px;
+    margin-right: 5px;
 }   
 </style>
 
