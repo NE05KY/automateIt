@@ -118,8 +118,6 @@ Front-end Developer at Exadel
 Язык получил очень бурное развитие и спустя 10 лет вышла версия 1.1, которая актуальна по сей день.
 </footer>
 
-<!-- TODO: Picture -->
-
 ## Преимущества {#Pros}
 
 ![](pictures/new_saber.jpg){:.saber}
@@ -192,6 +190,23 @@ Front-end Developer at Exadel
 </footer>
 
 ## **Изображения**
+
+## Example
+{:.cover #Example}
+![](pictures/example.svg)
+
+<footer>
+SVG не подходит для фотореалистичной графики
+</footer>
+
+<style>
+#Example img {
+    height: 100%;
+}
+#Example h2 {
+    display: none;
+}
+</style>
 
 ## Изображения {#Pictures}
 
