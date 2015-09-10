@@ -423,6 +423,6 @@ Front-end Developer at Exadel
 <script src="scripts/final.js"></script>
 <link rel="stylesheet" type="text/css" href="scripts/final.css">
 <div class="starwars-demo">
-    <img src="pictures/svg.svg" class="svg">
-    <span class="moto" id="moto">Welcome to the Vector Side!</span>
+    <img src="pictures/svg.svg" class="svg" id="final-svg">
+    <span class="moto" id="final-moto">Welcome to the Vector Side!</span>
 </div>

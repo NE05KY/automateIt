@@ -1,11 +1,11 @@
 /* Animation properties */
-#Final .svg {
+.svg-anim {
   animation: svg 10s ease-out infinite;
 }
-#Final .moto span {
+.moto-span-anim {
   animation: spin-letters 10s linear infinite;
 }
-#Final .moto {
+.moto-anim {
   animation: move-moto 10s linear infinite;
 }
 

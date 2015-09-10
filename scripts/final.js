@@ -1,20 +1,28 @@
 function finalize() {
-	var moto = document.getElementById( 'moto' );     // Find the H2
-	var motoText = moto.innerHTML;                                      // Get the content of the H2
-	var motoArr = motoText.split( '' );                                   // Split content into array
-	moto.innerHTML = '';                                                      // Empty current content
+	var moto = document.getElementById( 'final-moto' ),
+		svg = document.getElementById( 'final-svg' );
 
-	var span;                   // Create variables to create elements
+
+
+	var motoText = moto.innerHTML;
+	var motoArr = motoText.split( '' );
+	moto.innerHTML = '';
+
+	var span;
 	var letter;
 
-	for ( var i = 0; i < motoArr.length; i++ ) {                                    // Loop for every letter
-	    span = document.createElement( "span" );                    // Create a <span> element
-	    letter = document.createTextNode( motoArr[ i ] );   // Create the letter
-	    if ( motoArr[ i ] === ' ' ) {                                             // If the letter is a space...
-	        moto.appendChild( letter );                 // ...Add the space without a span
+	for ( var i = 0; i < motoArr.length; i++ ) {
+	    span = document.createElement( "span" );
+	    span.className = span.className + " moto-span-anim";
+	    letter = document.createTextNode( motoArr[ i ] );
+	    if ( motoArr[ i ] === ' ' ) {
+	        moto.appendChild( letter );
 	    } else {
-	        span.appendChild( letter );                       // Add the letter to the span
-	        moto.appendChild( span );                   // Add the span to the h2
+	        span.appendChild( letter );
+	        moto.appendChild( span );
 	    }
 	}
+
+	svg.className = svg.className + " svg-anim";
+	moto.className = moto.className + " moto-anim";
 }
