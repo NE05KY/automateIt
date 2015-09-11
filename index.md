@@ -468,7 +468,7 @@ SVG покрывает свой строго определенный спект
 <style>#CrocoDevTools h2{display:none;}</style>
 
 
-## Анимация {#Croco}
+## Результат {#Croco}
 <script src="scripts/snap.svg-min.js"></script>
 <script src="scripts/crocodile.js"></script>
 <style>#Croco .wrapper{text-align:left;margin-top:-150px;}</style>
